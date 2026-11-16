@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering - La Peninsular</title>
+    
+    <!-- Importación de Google Fonts y Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Archivo CSS externo -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- CABECERA -->
+    <header class="cabecera-sitio">
+        <div class="cabecera-superior">
+
+            <div class="contenedor-logo">
+                <a href="index.html" class="enlace-logo">
+                    <h1 class="titulo-logo">LA PENINSULAR</h1>
+                    <span class="subtitulo-logo">PIZZERÍA ARTESANAL</span>
+                </a>
+            </div>
+
+            <!-- Botones de acciones de usuario -->
+            <div class="acciones-usuario">
+                <button type="button" class="btn-icono" aria-label="Cuenta">
+                    <span class="material-symbols-outlined">person</span>
+                </button>
+                <button type="button" class="btn-icono" aria-label="Carrito">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                </button>
+            </div>
+            
+        </div>
+
+        <nav class="navegacion-principal">
+            <ul>
+                <li><a href="SobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="Prensa.html">PRENSA</a></li>
+                <li><a href="PedirOnline.html">PEDIR ONLINE</a></li>
+                <li><a href="Catering.html">CATERING</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL DE CATERING -->
+    <main class="contenedor-principal">
+        
+        <!-- SECCIÓN DE INFORMACIÓN Y CONDICIONES -->
+        <section class="seccion-catering-info">
+            <h2 class="titulo-seccion texto-degradado">PROGRAMAR CATERING</h2>
+            
+            <div class="caja-textos-aviso">
+                <p class="texto-aviso">
+                    El servicio de catering está disponible para pedidos de 15 pizzas o más y es exclusivamente para recoger en local. Muchos de nuestros clientes coordinan la entrega a través de un servicio de transporte compartido.
+                </p>
+                <p class="texto-aviso">
+                    No realizamos mitades de pizzas y, lamentablemente, no podemos modificar la ubicación del pedido una vez procesada la factura.
+                </p>
+                <p class="texto-aviso">
+                    Para realizar un pedido en los próximos cuatro días, por favor llame a nuestra tienda directamente.
+                </p>
+            </div>
+
+            <!-- Barra de filtro / búsqueda simulada de la referencia -->
+            <div class="contenedor-filtro-busqueda">
+                <div class="grupo-select-filtro">
+                    <select id="filtro-articulos" name="articulos" class="select-filtro">
+                        <option value="disponibles">Artículos disponibles</option>
+                    </select>
+                </div>
+                <button type="button" class="btn-buscar-filtro" aria-label="Buscar">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE EXTRAS DE CATERING -->
+        <section class="seccion-menu seccion-extras-catering">
+            <h2 class="titulo-categoria texto-degradado">EXTRAS DE CATERING</h2>
+            <p class="subtitulo-horario-catering">DISPONIBLE 12:15 PM - 9:34 PM</p>
+            
+            <div class="cuadricula-productos">
+                <!-- Tarjeta Extra 1 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=600" alt="Sándwich Especial Ibérico" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Sándwich Especial Ibérico</h3>
+                        <p class="precio-producto">14,00 €</p>
+                        <p class="descripcion-producto">Pan artesanal crujiente relleno de jamón ibérico, rúcula y provolone fundido.</p>
+                    </div>
+                </article>
+
+                <!-- Tarjeta Extra 2 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=600" alt="Sándwich de Pollo Crispy" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Sándwich de Pollo Crispy</h3>
+                        <p class="precio-producto">13,50 €</p>
+                        <p class="descripcion-producto">Pechuga empanada crujiente, salsa marinara casera y mezcla de quesos italianos.</p>
+                    </div>
+                </article>
+
+                <!-- Tarjeta Extra 3 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=600" alt="Panini Rústico Caliente" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Panini Rústico Caliente</h3>
+                        <p class="precio-producto">12,00 €</p>
+                        <p class="descripcion-producto">Masa de panadero al sésamo con tomates secos, mozzarella y aceite de albahaca.</p>
+                    </div>
+                </article>
+
+                <!-- Tarjeta Extra 4 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600" alt="Bandeja Ensalada César" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Bandeja Ensalada César</h3>
+                        <p class="precio-producto">28,00 €</p>
+                        <p class="descripcion-producto">Gran formato para grupos. Lechuga romana fresca, trozos de pollo asado y parmesano.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE PIZZAS DE CATERING -->
+        <section class="seccion-menu seccion-pizzas-catering">
+            <h2 class="titulo-categoria texto-degradado">CATERING PIZZAS</h2>
+            <p class="subtitulo-horario-catering">DISPONIBLE 12:15 PM - 9:34 PM</p>
+            
+            <div class="cuadricula-productos">
+                <!-- Pizza 1 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600" alt="Tartufo Pie" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Tartufo Pie</h3>
+                        <p class="precio-producto">38,00 €</p>
+                        <p class="descripcion-producto">Mozzarella, champiñones cremini estofados, ricotta y aceite de trufa.</p>
+                    </div>
+                </article>
+
+                <!-- Pizza 2 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600" alt="L'Industrie Pie" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">L'Industrie Pie</h3>
+                        <p class="precio-producto">47,00 €</p>
+                        <p class="descripcion-producto">Prosciutto di Parma y burrata fresca.</p>
+                    </div>
+                </article>
+
+                <!-- Pizza 3 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=600" alt="Parma Pie" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Parma Pie</h3>
+                        <p class="precio-producto">38,00 €</p>
+                        <p class="descripcion-producto">Salsa de tomate, mozzarella, ricotta, prosciutto di Parma y trufa.</p>
+                    </div>
+                </article>
+
+                <!-- Pizza 4 -->
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=600" alt="Pork Pepperoni Pie" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Pork Pepperoni Pie</h3>
+                        <p class="precio-producto">37,00 €</p>
+                        <p class="descripcion-producto">Salsa de tomate, mozzarella y pepperoni crujiente de cerdo.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

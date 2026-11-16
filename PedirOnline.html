@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedir Online - La Peninsular</title>
+
+    <!-- Importación de Google Fonts y Material Symbols -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- CABECERA -->
+    <header class="cabecera-sitio">
+    <!-- Logo y Botones -->
+    <div class="cabecera-superior">
+        <div class="contenedor-logo">
+            <a href="index.html" class="enlace-logo">
+                <h1 class="titulo-logo">LA PENINSULAR</h1>
+                <span class="subtitulo-logo">PIZZERÍA ARTESANAL</span>
+            </a>
+        </div>
+
+        <!-- Botones de iconos (Usuario y Carrito) -->
+        <div class="acciones-usuario">
+            <button type="button" class="btn-icono" aria-label="Cuenta">
+                <span class="material-symbols-outlined">person</span>
+            </button>
+            <button type="button" class="btn-icono" aria-label="Carrito">
+                <span class="material-symbols-outlined">shopping_bag</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Menú de navegación principal -->
+    <nav class="navegacion-principal">
+            <ul>
+                <li><a href="SobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="Prensa.html">PRENSA</a></li>
+                <li><a href="PedirOnline.html">PEDIR ONLINE</a></li>
+                <li><a href="Catering.html">CATERING</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <main class="contenedor-principal">
+        
+        <!-- SECCION PIZZAS -->
+        <section class="seccion-menu">
+            <h2 class="titulo-categoria texto-degradado">Pizzas</h2>
+            
+            <div class="cuadricula-productos">
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600" alt="La Peninsular" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar La Peninsular">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">La Peninsular</h3>
+                        <p class="precio-producto">22,00 €</p>
+                        <p class="descripcion-producto">Tomate ibérico, mozzarella de búfala y jamón de bellota.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=600" alt="La Cantábrica" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar La Cantábrica">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">La Cantábrica</h3>
+                        <p class="precio-producto">19,50 €</p>
+                        <p class="descripcion-producto">Anchoas del Cantábrico, alcaparras y aceite de oliva extra.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=600" alt="Cuatro Quesos Patrios" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar Cuatro Quesos Patrios">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Cuatro Quesos Patrios</h3>
+                        <p class="precio-producto">18,00 €</p>
+                        <p class="descripcion-producto">Queso Cabrales, Manchego curado, Mahón y Tetilla.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCION POSTRES -->
+        <section class="seccion-menu seccion-postres">
+            <h2 class="titulo-categoria texto-degradado">Postres</h2>
+            
+            <div class="cuadricula-productos">
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600" alt="Tiramisú Artesanal" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar Tiramisú Artesanal">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Tiramisú Artesanal</h3>
+                        <p class="precio-producto">6,00 €</p>
+                        <p class="descripcion-producto">Receta tradicional italiana con café espresso y mascarpone.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <div class="contenedor-img-producto">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=600" alt="Cannoli Siciliano" class="imagen-producto">
+                        <button type="button" class="btn-agregar" aria-label="Agregar Cannoli Siciliano">+</button>
+                    </div>
+                    <div class="info-producto">
+                        <h3 class="nombre-producto">Cannoli Siciliano</h3>
+                        <p class="precio-producto">5,50 €</p>
+                        <p class="descripcion-producto">Crocante masa rellena de crema dulce de ricotta y pistacho.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FORMULARIO DE PEDIDO -->
+        <section id="seccion-formulario" class="seccion-formulario">
+            <h2 class="titulo-seccion texto-degradado">CONFIRMA TUS DATOS DE ENVÍO</h2>
+            
+            <form id="form-pedido-online" class="formulario-pedido">
+                <div class="grupo-campo">
+                    <label for="nombre-cliente" class="etiqueta-campo">Nombre:</label>
+                    <input type="text" id="nombre-cliente" name="nombre" class="campo-texto" placeholder="Introduce tu nombre" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="direccion-cliente" class="etiqueta-campo">Dirección:</label>
+                    <input type="text" id="direccion-cliente" name="direccion" class="campo-texto" placeholder="Calle, número, piso..." required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="notas-pedido" class="etiqueta-campo">Observaciones:</label>
+                    <textarea id="notas-pedido" name="notas" class="campo-area" rows="3" placeholder="Alergias, piso, timbre..."></textarea>
+                </div>
+
+                <button type="submit" id="btn-confirmar-pedido" class="btn-enviar-pedido">REALIZAR PEDIDO</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
